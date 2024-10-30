@@ -1,0 +1,97 @@
+
+
+#classifieds-directory-form.advanced_search .item-list-tabs,#classifieds-directory-form.advanced_search #classifieds-dir-list{
+	width:65%;
+}
+#classified-dir-search #browse-categories {
+	display:none;
+}
+	#classifieds-directory-form.advanced_search #browse-categories {
+		display:inherit;
+	}
+#browse-categories .all-none{
+text-align:right;
+padding:5px;
+display:block;
+}
+
+#browse-categories.active{
+	background-color:#FFF9DB;
+}
+
+#classifieds-list .category-header{
+	background:#EAEAEA;
+	padding:5px;
+	font-size:1.4em;
+	font-weight:bold;
+}
+
+#classifieds-list .classified-author img {
+	width:15px;
+	height:15px;
+	float:inherit;
+	margin:0;
+	margin-right:5px;
+}
+.item  .item-title a{
+	font-weight:bold;
+	text-decoration:none;
+	color:#555555;
+}
+
+a.classified-author {
+	text-decoration:none;
+}
+
+span.tags{
+	margin-left:50px;
+}
+.tags a.tag {
+	background:transparent url(../images/tag_orange.png) no-repeat;
+	padding-left:18px;
+	margin-right:5px;
+}
+.item .item-meta {
+	margin-top:10px;
+	color:#888888;
+}
+.breadcrumb .action{
+	font-weight:bold;
+}
+
+.breadcrumb a.category  {
+	padding-left:5px;
+}
+	.breadcrumb a.category:before,.category-header a:before{
+		content: "\00BB \0020";
+	}
+	
+	
+/*CATEGORIES|START*/
+
+ul.tree, ul.tree ul, ul.tree li{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background:none;
+}
+
+ul.tree,ul.tree li {
+	margin:auto;
+	padding:0;
+	margin-left:8px;
+}
+ul.tree li>div.icon {
+	padding:8px;
+}
+ul.tree li>div.folder {
+	display:inline;
+	background:transparent url(../images/folder.png) no-repeat;
+}
+ul.tree li.parent>div.folder {
+	background:transparent url(../images/folder_go.png) no-repeat;
+}
+
+/*CATEGORIES|END*/
